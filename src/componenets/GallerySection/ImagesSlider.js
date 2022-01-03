@@ -34,7 +34,7 @@ const ImagesSlider = () => {
   const settingsSlider1 = {
     dots: false,
     infinite: true,
-    slidesToShow: width <= 768 ? 1 : 3,
+    slidesToShow: width <= 768 ? 1 : 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 800,
@@ -46,7 +46,7 @@ const ImagesSlider = () => {
   const settingsSlider2 = {
     dots: false,
     infinite: true,
-    slidesToShow: width <= 768 ? 1 : 3,
+    slidesToShow: width <= 768 ? 1 : 4,
     slidesToScroll: 1,
     autoplay: true,
     rtl: true,

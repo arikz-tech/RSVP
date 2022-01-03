@@ -26,7 +26,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Welcome to our wedding</HeroH1>
-        <HeroP>הזמנה לחתונה אריק & וענבר</HeroP>
+        <HeroP>הזמנה לחתונה אריק & ענבר</HeroP>
         <HeroBtnWrapper>
           <Button
             to="confirm"

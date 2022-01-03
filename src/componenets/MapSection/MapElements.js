@@ -9,7 +9,7 @@ export const MapSectionContainer = styled.div`
 
   direction: rtl;
   align-items: center;
-  height: 900px;
+  height: 800px;
   z-index: 1;
 
   :before {
