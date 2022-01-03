@@ -75,6 +75,6 @@ export const CardWrapper = styled.div`
 export const ImgWrap = styled.div``;
 
 export const Img = styled.img`
-  width: 450px;
+  width: 400px;
   height: 350px;
 `;
