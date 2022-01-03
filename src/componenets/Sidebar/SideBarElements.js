@@ -4,6 +4,8 @@ import { Link as LinkS } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import colors from "../colors";
 
+import hebFont from "../font3.ttf";
+
 export const SideBarContainer = styled.aside`
   position: fixed;
   z-index: 999;
@@ -62,6 +64,15 @@ export const SideBarLink = styled(LinkS)`
   color: ${colors.secondary};
   cursor: pointer;
 
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
   &:hover {
     color: ${colors.accent};
     transition: 0.2s ease-in-out;
@@ -89,6 +100,15 @@ export const Button = styled(LinkR)`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
   &:hover {
     transition: all 0.2s ease-in-out;

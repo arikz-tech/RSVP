@@ -1,13 +1,16 @@
 import styled from "styled-components";
 import { MdKeyboardArrowLeft, MdArrowBack } from "react-icons/md";
 
+import welcomeFont from "../font1.ttf";
+import hebFont from "../font3.ttf";
+
 export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 100px;
-  height: 800px;
+  height: 900px;
   position: relative;
   z-index: 1;
 
@@ -48,7 +51,7 @@ export const VideoBg = styled.video`
 `;
 
 export const HeroContent = styled.div`
-  margin-top: 245px;
+  margin-top: 100px;
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -60,15 +63,23 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.div`
   color: #fff;
-  font-size: 48px;
+  font-family: welcomefont;
+  @font-face {
+    font-family: welcomefont;
+    src: url(${welcomeFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  font-size: 50px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 37px;
   }
 `;
 
@@ -77,6 +88,15 @@ export const HeroP = styled.p`
   font-size: 24px;
   text-align: center;
   max-width: 600px;
+
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

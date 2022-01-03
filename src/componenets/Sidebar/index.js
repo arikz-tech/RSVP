@@ -27,7 +27,7 @@ const SideBar = ({ isOpen, toggle }) => {
             אישור הגעה
           </SideBarLink>
           <SideBarLink to="map" onClick={toggle} smooth={true} offset={-80}>
-            מפה
+            מפה והסעות
           </SideBarLink>
           <Button
             to={{
@@ -36,7 +36,7 @@ const SideBar = ({ isOpen, toggle }) => {
             }}
             target="_blank"
           >
-            Save The Date
+            שמירת תאריך ביומן
           </Button>
         </SideBarMenu>
       </SideBarWrapper>

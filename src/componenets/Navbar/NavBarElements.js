@@ -2,6 +2,9 @@ import styled from "styled-components";
 import colors from "../colors";
 import { Link as LinkS } from "react-scroll";
 
+import titleFont from "../font2.ttf";
+import hebFont from "../font3.ttf";
+
 export const Nav = styled.nav`
   background: ${colors.primary};
   height: 80px;
@@ -30,15 +33,23 @@ export const NavBarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkS)`
-  color: ${colors.secondary};
+  color: ${colors.background};
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: bold;
   text-decoration: none;
+
+  font-family: titlefont;
+
+  @font-face {
+    font-family: titlefont;
+    src: url(${titleFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -81,7 +92,15 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid ${colors.accent};
+    border-bottom: 5px solid ${colors.accent};
+  }
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
   }
 `;
 

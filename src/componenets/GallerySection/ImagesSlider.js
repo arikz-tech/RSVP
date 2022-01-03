@@ -13,6 +13,9 @@ import img6 from "../../images/6.jpeg";
 import img7 from "../../images/7.jpeg";
 import img8 from "../../images/8.jpeg";
 import img9 from "../../images/9.jpeg";
+import img10 from "../../images/10.jpeg";
+import img11 from "../../images/11.jpeg";
+import img12 from "../../images/12.jpeg";
 
 const ImagesSlider = () => {
   const useWindowWidth = () => {
@@ -88,13 +91,13 @@ const ImagesSlider = () => {
           <CardImage src={img9} />
         </div>
         <div>
-          <CardImage src={img1} />
+          <CardImage src={img10} />
         </div>
         <div>
-          <CardImage src={img2} />
+          <CardImage src={img11} />
         </div>
         <div>
-          <CardImage src={img3} />
+          <CardImage src={img12} />
         </div>
       </Slider>
     </SliderContainer>

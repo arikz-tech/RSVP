@@ -69,7 +69,7 @@ const NavBar = (props) => {
                   exact="true"
                   offset={-80}
                 >
-                  מפה
+                  מפה והסעות
                 </NavLinks>
               </NavItem>
             </NavMenu>

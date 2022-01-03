@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 import colors from "./colors";
 
+import hebFont from "./font3.ttf";
+
 export const Button = styled(Link)`
   border-radius: 50px;
   background: ${colors.primary};
@@ -19,6 +21,15 @@ export const Button = styled(Link)`
   direction: rtl;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
   &:hover {
     transition: all 0.2s ease-in-out;

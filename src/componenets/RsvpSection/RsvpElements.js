@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import colors from "../colors";
 import { Link as LinkR } from "react-router-dom";
+import hebFont from "../font3.ttf";
 
 export const SectionContainer = styled.div`
   display: flex;
@@ -16,11 +17,27 @@ export const SectionContainer = styled.div`
 export const H1 = styled.h1`
   margin: 10px;
   color: ${colors.primary};
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 `;
 
 export const H3 = styled.h3`
   margin: 10px;
   color: ${colors.primary};
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 `;
 
 export const InputContainer = styled.div`
@@ -62,6 +79,14 @@ export const Label = styled.label`
   align-items: center;
   justify-content: center;
   display: block;
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 `;
 
 export const QuantityButton = styled.button`
@@ -94,5 +119,14 @@ export const Button = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${colors.secondary};
+  }
+
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
   }
 `;

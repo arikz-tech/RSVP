@@ -25,8 +25,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>ברוכים הבאים</HeroH1>
-        <HeroP>הזמנה לחתונה של אריק וענבר</HeroP>
+        <HeroH1>Welcome to our wedding</HeroH1>
+        <HeroP>הזמנה לחתונה אריק & וענבר</HeroP>
         <HeroBtnWrapper>
           <Button
             to="confirm"
@@ -35,12 +35,12 @@ const HeroSection = () => {
             smooth={true}
             offset={-80}
           >
-            <h4>לאישור הגעה {hover ? <ArrowDownward /> : <ArrowDown />}</h4>
+            אישור הגעה{hover ? <ArrowDownward /> : <ArrowDown />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
   );
 };
-//{hover ? <ArrowDownward /> : <ArrowDown />}
+
 export default HeroSection;
