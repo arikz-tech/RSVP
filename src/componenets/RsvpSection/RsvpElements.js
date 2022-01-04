@@ -10,13 +10,21 @@ export const SectionContainer = styled.div`
   justify-content: center;
   direction: rtl;
   flex-flow: column;
-  height: 800px;
+  height: 600px;
   z-index: 1;
 `;
 
 export const H1 = styled.h1`
   margin: 10px;
   color: ${colors.primary};
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 `;
 
 export const H3 = styled.h3`

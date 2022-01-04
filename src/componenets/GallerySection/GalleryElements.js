@@ -1,6 +1,8 @@
 import styled, { css, keyframes } from "styled-components";
 import colors from "../colors";
 
+import hebFont from "../font3.ttf";
+
 export const GallerySectionContainer = styled.div`
   background: ${colors.background};
   height: 800px;
@@ -13,6 +15,14 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: hebfont;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
   margin-bottom: 10px;
 `;
 
