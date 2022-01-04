@@ -7,7 +7,7 @@ const MapSection = () => {
       <H1>ניווט לאולם</H1>
       <iframe
         title="58"
-        width="100%"
+        width="80%"
         height="600"
         style={{ border: 0, padding: 10 }}
         loading="lazy"
