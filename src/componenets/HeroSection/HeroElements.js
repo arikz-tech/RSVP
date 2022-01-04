@@ -75,11 +75,11 @@ export const HeroH1 = styled.div`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 21px;
+    font-size: 25px;
   }
 `;
 
