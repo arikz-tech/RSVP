@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import colors from "../colors";
 import {
   Nav,
   NavBarContainer,
@@ -14,7 +15,7 @@ import {
 const NavBar = (props) => {
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: colors.primary }}>
         <Nav>
           <NavBarContainer>
             <NavLogo to="home" smooth={true}>
