@@ -25,6 +25,8 @@ export const InvitationSectionContainer = styled.div`
 export const H1 = styled.h1`
   color: ${colors.primary};
   font-family: hebfont;
+  margin-bottom: 10px;
+  margin-top: 10px;
   font-weight: bold;
   @font-face {
     font-family: hebfont;

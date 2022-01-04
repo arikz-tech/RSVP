@@ -15,6 +15,11 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
+`;
+
+export const H1 = styled.h1`
+  color: ${colors.primary};
   font-family: hebfont;
   font-weight: bold;
   @font-face {
@@ -23,11 +28,6 @@ export const TitleContainer = styled.div`
     font-weight: normal;
     font-style: normal;
   }
-  margin-bottom: 10px;
-`;
-
-export const H1 = styled.h1`
-  color: ${colors.primary};
 `;
 
 const leftToRight = keyframes`
