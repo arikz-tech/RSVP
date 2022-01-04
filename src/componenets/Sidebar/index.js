@@ -20,11 +20,19 @@ const SideBar = ({ isOpen, toggle }) => {
           <SideBarLink to="home" onClick={toggle} smooth={true} offset={-80}>
             בית
           </SideBarLink>
-          <SideBarLink to="gallery" onClick={toggle} smooth={true} offset={-80}>
-            גלריה
+          <SideBarLink
+            to="invitation"
+            onClick={toggle}
+            smooth={true}
+            offset={-80}
+          >
+            הזמנה
           </SideBarLink>
           <SideBarLink to="confirm" onClick={toggle} smooth={true} offset={-80}>
             אישור הגעה
+          </SideBarLink>
+          <SideBarLink to="gallery" onClick={toggle} smooth={true} offset={-80}>
+            גלריה
           </SideBarLink>
           <SideBarLink to="map" onClick={toggle} smooth={true} offset={-80}>
             מפה והסעות

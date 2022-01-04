@@ -38,16 +38,17 @@ const NavBar = (props) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="gallery"
+                  to="invitation"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  גלריה
+                  הזמנה
                 </NavLinks>
               </NavItem>
+              <NavItem></NavItem>
               <NavItem>
                 <NavLinks
                   to="confirm"
@@ -58,6 +59,18 @@ const NavBar = (props) => {
                   offset={-80}
                 >
                   אישור הגעה
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="gallery"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  גלריה
                 </NavLinks>
               </NavItem>
               <NavItem>

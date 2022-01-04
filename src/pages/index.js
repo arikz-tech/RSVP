@@ -5,6 +5,7 @@ import HeroSection from "../componenets/HeroSection";
 import RsvpSection from "../componenets/RsvpSection";
 import MapSection from "../componenets/MapSection";
 import GallerySection from "../componenets/GallerySection";
+import InvitationSection from "../componenets/Invitation";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +17,9 @@ const Home = () => {
       <NavBar toggle={toggle} />
       <SideBar isOpen={isOpen} toggle={toggle} />
       <HeroSection />
-      <GallerySection />
+      <InvitationSection />
       <RsvpSection />
+      <GallerySection />
       <MapSection />
     </>
   );

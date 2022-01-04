@@ -51,7 +51,7 @@ export const VideoBg = styled.video`
 `;
 
 export const HeroContent = styled.div`
-  margin-top: 100px;
+  margin-top: 250px;
   z-index: 3;
   max-width: 1200px;
   position: absolute;

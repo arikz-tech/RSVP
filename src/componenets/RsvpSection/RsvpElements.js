@@ -10,7 +10,7 @@ export const SectionContainer = styled.div`
   justify-content: center;
   direction: rtl;
   flex-flow: column;
-  height: 700px;
+  height: 800px;
   z-index: 1;
 `;
 
