@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import Video from "../../videos/video.mp4";
+import React, { useState, useLayoutEffect } from "react";
+import DesktopVideo from "../../videos/desktop.mp4";
+import PhoneVideo from "../../videos/mobile.mp4";
 import { Button } from "../ButtonElement";
 import {
   HeroContainer,
@@ -13,6 +14,19 @@ import {
   ArrowDown,
 } from "./HeroElements";
 const HeroSection = () => {
+  const useWindowWidth = () => {
+    const [width, setWidth] = useState(0);
+    useLayoutEffect(() => {
+      function updateSize() {
+        setWidth(window.innerWidth);
+      }
+      window.addEventListener("resize", updateSize);
+      updateSize();
+      return () => window.removeEventListener("resize", updateSize);
+    }, []);
+    return width;
+  };
+  const width = useWindowWidth();
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -22,7 +36,13 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg
+          autoPlay
+          loop
+          muted
+          src={width < 500 ? PhoneVideo : DesktopVideo}
+          type="video/mp4"
+        />
       </HeroBg>
       <HeroContent>
         <HeroH1>Welcome to our wedding</HeroH1>
