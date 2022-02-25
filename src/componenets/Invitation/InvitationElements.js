@@ -9,7 +9,7 @@ export const InvitationSectionContainer = styled.div`
 
   direction: rtl;
   align-items: center;
-  height: 800px;
+  height: 700px;
   z-index: 1;
 
   :before {

@@ -25,6 +25,21 @@ export const MapSectionContainer = styled.div`
 export const H1 = styled.h1`
   color: ${colors.primary};
   font-family: hebfont;
+  direction: rtl;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+`;
+
+export const H2 = styled.h2`
+  color: ${colors.primary};
+  margin-top: 10px;
+  direction: rtl;
+  font-family: hebfont;
   font-weight: bold;
   @font-face {
     font-family: hebfont;
@@ -38,6 +53,7 @@ export const H3 = styled.h3`
   color: ${colors.primary};
   margin-top: 10px;
   font-family: hebfont;
+  direction: rtl;
   font-weight: bold;
   @font-face {
     font-family: hebfont;
