@@ -36,6 +36,7 @@ export const H1 = styled.h1`
 
 export const H3 = styled.h3`
   color: ${colors.primary};
+  margin-top: 10px;
   font-family: hebfont;
   font-weight: bold;
   @font-face {
