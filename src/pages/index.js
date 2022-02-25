@@ -19,8 +19,8 @@ const Home = () => {
       <HeroSection />
       <InvitationSection />
       <RsvpSection />
-      <GallerySection />
       <MapSection />
+      <GallerySection />
     </>
   );
 };

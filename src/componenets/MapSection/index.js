@@ -1,10 +1,12 @@
 import React from "react";
-import { MapSectionContainer, H1 } from "./MapElements";
+import { MapSectionContainer, H1, H3 } from "./MapElements";
 
 const MapSection = () => {
   return (
     <MapSectionContainer id="map">
       <H1>ניווט לאולם</H1>
+      <H3>הסעה יוצאת מקרית גת בשעה 18:45</H3>
+      <H3>הסעה יוצאת מכרמיאל בשעה 18:30</H3>
       <iframe
         title="58"
         width="90%"

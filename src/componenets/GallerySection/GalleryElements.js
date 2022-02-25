@@ -5,7 +5,7 @@ import hebFont from "../font3.ttf";
 
 export const GallerySectionContainer = styled.div`
   background: ${colors.background};
-  height: 800px;
+  height: 500px;
   direction: rtl;
 `;
 

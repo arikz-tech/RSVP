@@ -31,11 +31,11 @@ const SideBar = ({ isOpen, toggle }) => {
           <SideBarLink to="confirm" onClick={toggle} smooth={true} offset={-80}>
             אישור הגעה
           </SideBarLink>
-          <SideBarLink to="gallery" onClick={toggle} smooth={true} offset={-80}>
-            גלריה
-          </SideBarLink>
           <SideBarLink to="map" onClick={toggle} smooth={true} offset={-80}>
             מפה והסעות
+          </SideBarLink>
+          <SideBarLink to="gallery" onClick={toggle} smooth={true} offset={-80}>
+            גלריה
           </SideBarLink>
           <Button
             to={{

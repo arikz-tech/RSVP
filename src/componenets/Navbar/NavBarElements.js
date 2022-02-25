@@ -33,7 +33,7 @@ export const NavBarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkS)`
-  color: ${colors.background};
+  color: ${colors.secondary};
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2rem;

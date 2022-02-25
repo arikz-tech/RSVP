@@ -42,19 +42,6 @@ const ImagesSlider = () => {
     cssEase: "linear",
     arrows: false,
   };
-
-  const settingsSlider2 = {
-    dots: false,
-    infinite: true,
-    slidesToShow: width <= 768 ? 1 : 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    rtl: true,
-    speed: 800,
-    autoplaySpeed: 3000,
-    cssEase: "linear",
-    arrows: false,
-  };
   return (
     <SliderContainer>
       <TitleContainer>
@@ -79,8 +66,6 @@ const ImagesSlider = () => {
         <div>
           <CardImage src={img6} />
         </div>
-      </Slider>
-      <Slider {...settingsSlider2}>
         <div>
           <CardImage src={img7} />
         </div>
