@@ -8,7 +8,6 @@ export const GiftSectionContainer = styled.div`
   flex-direction: column;
 
   direction: rtl;
-  justify-content: center;
   align-items: center;
   height: 700px;
   z-index: 1;
