@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
-import mobile from "../../videos/mobile.mp4";
-import desktop from "../../videos/desktop.mp4";
+import React, { useState } from "react";
+import mobileVideo from "../../videos/mobile.mp4";
+import desktopVideo from "../../videos/desktop.mp4";
+import thumb from "../../images/1.jpeg";
 import { Button } from "../ButtonElement";
 import {
   HeroContainer,
@@ -12,41 +13,26 @@ import {
   HeroBtnWrapper,
   ArrowDownward,
   ArrowDown,
+  Image,
 } from "./HeroElements";
-
-function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
-  return {
-    width,
-    height,
-  };
-}
-
-function useWindowDimensions() {
-  const [windowDimensions, setWindowDimensions] = useState(
-    getWindowDimensions()
-  );
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(getWindowDimensions());
-    }
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  return windowDimensions;
-}
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   const onHover = () => {
     setHover(!hover);
   };
 
-  const { width } = useWindowDimensions();
+  const onLoadedData = () => {
+    setIsVideoLoaded(true);
+  };
+
+  const getVideoSrc = (width) => {
+    if (width >= 1080) return desktopVideo;
+
+    return mobileVideo;
+  };
 
   return (
     <HeroContainer id="home">
@@ -55,8 +41,16 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          src={width < 600 ? mobile : desktop}
+          src={getVideoSrc(window.innerWidth)}
           type="video/mp4"
+          onLoadedData={onLoadedData}
+          style={{ opacity: isVideoLoaded ? 1 : 0 }}
+        />
+        <Image
+          src={thumb}
+          style={{
+            opacity: isVideoLoaded ? 0 : 1,
+          }}
         />
       </HeroBg>
       <HeroContent>

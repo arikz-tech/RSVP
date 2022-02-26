@@ -47,7 +47,6 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
 `;
 
 export const HeroContent = styled.div`
@@ -117,4 +116,11 @@ export const ArrowDownward = styled(MdArrowBack)`
 export const ArrowDown = styled(MdKeyboardArrowLeft)`
   padding-top: 2px;
   font-size: 18px;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 `;
