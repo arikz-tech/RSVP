@@ -35,7 +35,9 @@ export const H1 = styled.h1`
     font-style: normal;
   }
 `;
-
+export const Link = styled.a`
+  margin-top: 50px;
+`;
 export const Image = styled.img`
   width: 300px;
   height: 300px;
