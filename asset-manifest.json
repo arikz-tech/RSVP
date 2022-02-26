@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.61d0a6bd.chunk.css",
-    "main.js": "./static/js/main.23a373f4.chunk.js",
-    "main.js.map": "./static/js/main.23a373f4.chunk.js.map",
+    "main.js": "./static/js/main.f3b298af.chunk.js",
+    "main.js.map": "./static/js/main.f3b298af.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.05357b2a.js",
     "runtime-main.js.map": "./static/js/runtime-main.05357b2a.js.map",
     "static/css/2.a1be631c.chunk.css": "./static/css/2.a1be631c.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/font2.02a57b63.ttf": "./static/media/font2.02a57b63.ttf",
     "static/media/font3.9a71e98d.ttf": "./static/media/font3.9a71e98d.ttf",
     "static/media/invitation.d830a1f1.jpeg": "./static/media/invitation.d830a1f1.jpeg",
-    "static/media/mobile.2e330780.mp4": "./static/media/mobile.2e330780.mp4",
+    "static/media/mobile.920f59e0.mp4": "./static/media/mobile.920f59e0.mp4",
     "static/media/paybox.5c0c96cf.png": "./static/media/paybox.5c0c96cf.png",
     "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf"
   },
@@ -38,6 +38,6 @@
     "static/css/2.a1be631c.chunk.css",
     "static/js/2.a3a14052.chunk.js",
     "static/css/main.61d0a6bd.chunk.css",
-    "static/js/main.23a373f4.chunk.js"
+    "static/js/main.f3b298af.chunk.js"
   ]
 }
