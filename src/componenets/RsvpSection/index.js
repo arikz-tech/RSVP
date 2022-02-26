@@ -16,6 +16,7 @@ import {
 import { Button } from "../ButtonElement";
 import { Button as STDButton } from "./RsvpElements";
 import colors from "../colors";
+
 const RsvpSection = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

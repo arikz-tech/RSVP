@@ -6,6 +6,7 @@ import RsvpSection from "../componenets/RsvpSection";
 import MapSection from "../componenets/MapSection";
 import GallerySection from "../componenets/GallerySection";
 import InvitationSection from "../componenets/Invitation";
+import GiftSection from "../componenets/GiftSection";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const Home = () => {
       <HeroSection />
       <InvitationSection />
       <RsvpSection />
+      <GiftSection />
       <MapSection />
       <GallerySection />
     </>

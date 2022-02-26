@@ -1,0 +1,43 @@
+import styled from "styled-components";
+import colors from "../colors";
+import hebFont from "../font3.ttf";
+
+export const GiftSectionContainer = styled.div`
+  background: ${colors.background};
+  display: flex;
+  flex-direction: column;
+
+  direction: rtl;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  z-index: 1;
+
+  :before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+`;
+
+export const H1 = styled.h1`
+  color: ${colors.primary};
+  font-family: hebfont;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+`;
+
+export const Image = styled.img`
+  width: 300px;
+  height: 300px;
+`;

@@ -11,7 +11,7 @@ const MapSection = () => {
       <iframe
         title="58"
         width="90%"
-        height="500"
+        height="450"
         style={{ border: 0, padding: 10 }}
         loading="lazy"
         allowfullscreen

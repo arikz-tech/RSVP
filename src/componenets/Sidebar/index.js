@@ -31,6 +31,9 @@ const SideBar = ({ isOpen, toggle }) => {
           <SideBarLink to="confirm" onClick={toggle} smooth={true} offset={-80}>
             אישור הגעה
           </SideBarLink>
+          <SideBarLink to="gift" onClick={toggle} smooth={true} offset={-80}>
+            מתנה באשראי
+          </SideBarLink>
           <SideBarLink to="map" onClick={toggle} smooth={true} offset={-80}>
             מפה והסעות
           </SideBarLink>

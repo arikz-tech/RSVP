@@ -63,6 +63,18 @@ const NavBar = (props) => {
               </NavItem>
               <NavItem>
                 <NavLinks
+                  to="gift"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  מתנה באשראי
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
                   to="map"
                   smooth={true}
                   duration={500}
