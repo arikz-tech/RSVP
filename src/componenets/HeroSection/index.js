@@ -44,12 +44,12 @@ const HeroSection = () => {
           src={getVideoSrc(window.innerWidth)}
           type="video/mp4"
           onLoadedData={onLoadedData}
-          style={{ opacity: isVideoLoaded ? 1 : 0 }}
+          style={{ visibility: isVideoLoaded ? "visible" : "hidden" }}
         />
         <Image
           src={thumb}
           style={{
-            opacity: isVideoLoaded ? 0 : 1,
+            visibility: isVideoLoaded ? "hidden" : "visible",
           }}
         />
       </HeroBg>
