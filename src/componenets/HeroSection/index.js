@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import mobileVideo from "../../videos/mobile.mp4";
 import desktopVideo from "../../videos/desktop.mp4";
-import thumb from "../../images/1.jpeg";
+import cache from "../../videos/cache.mp4";
 import { Button } from "../ButtonElement";
 import {
   HeroContainer,
@@ -13,7 +13,6 @@ import {
   HeroBtnWrapper,
   ArrowDownward,
   ArrowDown,
-  Image,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -48,11 +47,12 @@ const HeroSection = () => {
         />
       </HeroBg>
       <HeroBg>
-        <Image
-          src={thumb}
-          style={{
-            opacity: isVideoLoaded ? 0 : 1,
-          }}
+        <VideoBg
+          autoPlay
+          loop
+          muted
+          src={cache}
+          style={{ opacity: isVideoLoaded ? 0 : 1 }}
         />
       </HeroBg>
       <HeroContent>
