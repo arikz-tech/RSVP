@@ -6,13 +6,13 @@ const MapSection = () => {
   return (
     <MapSectionContainer id="map">
       <H1>ניווט לאולם</H1>
-      <H2>הסעות:</H2>
-      <H3>קרית גת - רחבת השוק בשעה 18:45</H3>
-      <H3>כרמיאל - רחבת העירייה בשעה 18:30</H3>
       <a href="https://waze.com/ul?ll=32.11315664%2C34.90421891&navigate=yes">
         <img src={wazeImage} width={100} height={100} alt="waze navigation" />
       </a>
-      <H3>מפה:</H3>
+      <H2>הסעות:</H2>
+      <H3>קרית גת - רחבת השוק בשעה 18:45</H3>
+      <H3>כרמיאל - רחבת העירייה בשעה 18:30</H3>
+      <H2>מפה:</H2>
       <iframe
         title="58"
         width="90%"

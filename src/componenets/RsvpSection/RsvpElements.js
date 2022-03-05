@@ -70,6 +70,7 @@ export const ButtonsContainer = styled.div`
 
 export const LabelContainer = styled.div`
   display: block;
+  margin-top: 10px;
   align-items: center;
   justify-content: center;
 `;

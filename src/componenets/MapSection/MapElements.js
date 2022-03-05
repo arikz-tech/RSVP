@@ -24,6 +24,7 @@ export const MapSectionContainer = styled.div`
 
 export const H1 = styled.h1`
   color: ${colors.primary};
+  font-size: 40px;
   text-decoration: underline;
   font-family: hebfont;
   direction: rtl;
@@ -39,6 +40,7 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
   color: ${colors.primary};
   margin-top: 10px;
+  text-decoration: underline;
   direction: rtl;
   font-family: hebfont;
   font-weight: bold;

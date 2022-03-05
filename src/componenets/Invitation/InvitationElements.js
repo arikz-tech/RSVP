@@ -40,7 +40,7 @@ export const H1 = styled.h1`
 
 export const Image = styled.img`
   border: 5px solid #fff;
-  border-radius: 15px;
-  width: 350px;
+  border-radius: 20px;
+  width: 330px;
   height: 800px;
 `;

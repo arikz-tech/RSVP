@@ -41,6 +41,8 @@ export const Link = styled.a`
   margin-top: 50px;
 `;
 export const Image = styled.img`
-  width: 300px;
-  height: 300px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
 `;
