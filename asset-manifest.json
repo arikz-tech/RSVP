@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.61d0a6bd.chunk.css",
-    "main.js": "./static/js/main.14ffdf64.chunk.js",
-    "main.js.map": "./static/js/main.14ffdf64.chunk.js.map",
+    "main.js": "./static/js/main.cb33cf40.chunk.js",
+    "main.js.map": "./static/js/main.cb33cf40.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.05357b2a.js",
     "runtime-main.js.map": "./static/js/runtime-main.05357b2a.js.map",
     "static/css/2.a1be631c.chunk.css": "./static/css/2.a1be631c.chunk.css",
-    "static/js/2.a3a14052.chunk.js": "./static/js/2.a3a14052.chunk.js",
-    "static/js/2.a3a14052.chunk.js.map": "./static/js/2.a3a14052.chunk.js.map",
+    "static/js/2.12db0bf9.chunk.js": "./static/js/2.12db0bf9.chunk.js",
+    "static/js/2.12db0bf9.chunk.js.map": "./static/js/2.12db0bf9.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.a1be631c.chunk.css.map": "./static/css/2.a1be631c.chunk.css.map",
     "static/css/main.61d0a6bd.chunk.css.map": "./static/css/main.61d0a6bd.chunk.css.map",
-    "static/js/2.a3a14052.chunk.js.LICENSE.txt": "./static/js/2.a3a14052.chunk.js.LICENSE.txt",
+    "static/js/2.12db0bf9.chunk.js.LICENSE.txt": "./static/js/2.12db0bf9.chunk.js.LICENSE.txt",
     "static/media/1.ddc3c334.jpeg": "./static/media/1.ddc3c334.jpeg",
     "static/media/10.f27922d6.jpeg": "./static/media/10.f27922d6.jpeg",
     "static/media/11.3098c686.jpeg": "./static/media/11.3098c686.jpeg",
@@ -29,16 +29,17 @@
     "static/media/font2.02a57b63.ttf": "./static/media/font2.02a57b63.ttf",
     "static/media/font3.9a71e98d.ttf": "./static/media/font3.9a71e98d.ttf",
     "static/media/hero.faa38e5c.jpg": "./static/media/hero.faa38e5c.jpg",
-    "static/media/invitation.c9c732c8.jpeg": "./static/media/invitation.c9c732c8.jpeg",
+    "static/media/invitation.a4d40448.jpeg": "./static/media/invitation.a4d40448.jpeg",
     "static/media/mobile.920f59e0.mp4": "./static/media/mobile.920f59e0.mp4",
     "static/media/paybox.5c0c96cf.png": "./static/media/paybox.5c0c96cf.png",
-    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf"
+    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf",
+    "static/media/waze.af8a09eb.png": "./static/media/waze.af8a09eb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.05357b2a.js",
     "static/css/2.a1be631c.chunk.css",
-    "static/js/2.a3a14052.chunk.js",
+    "static/js/2.12db0bf9.chunk.js",
     "static/css/main.61d0a6bd.chunk.css",
-    "static/js/main.14ffdf64.chunk.js"
+    "static/js/main.cb33cf40.chunk.js"
   ]
 }
