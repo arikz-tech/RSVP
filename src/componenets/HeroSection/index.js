@@ -3,6 +3,7 @@ import mobileVideo from "../../videos/mobile.mp4";
 import desktopVideo from "../../videos/desktop.mp4";
 import thumb from "../../images/hero.jpg";
 import { Button } from "../ButtonElement";
+import Lottie from "react-lottie";
 import {
   HeroContainer,
   HeroBg,
@@ -11,16 +12,18 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
+  ArrowDownward,
+  ArrowDown,
   Image,
+  ArowContainer,
 } from "./HeroElements";
 
-import Lottie from "react-lottie";
-import animationData from "../../images/arrow.json";
+import arrowAnimation from "../../images/arrow.json";
 
 const defaultOptions = {
   loop: true,
   autoplay: true,
-  animationData: animationData,
+  animationData: arrowAnimation,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },
@@ -76,10 +79,12 @@ const HeroSection = () => {
             smooth={true}
             offset={-80}
           >
-            אישור הגעה
-            <Lottie options={defaultOptions} height={50} width={50} />
+            אישור הגעה{hover ? <ArrowDownward /> : <ArrowDown />}
           </Button>
         </HeroBtnWrapper>
+        <ArowContainer>
+          <Lottie options={defaultOptions} height={50} width={50} />
+        </ArowContainer>
       </HeroContent>
     </HeroContainer>
   );

@@ -60,6 +60,11 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 
+export const ArowContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const HeroH1 = styled.div`
   color: #fff;
   font-family: welcomefont;
