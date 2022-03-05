@@ -43,7 +43,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <Button
             to={{
               pathname:
-                "https://calendar.google.com/event?action=TEMPLATE&tmeid=NTh1cmdqbzk5N2duMjN2M2ZzbWM4OWQ4YXIgYXJpa3oxNUBt&tmsrc=arikz15%40gmail.com",
+                "https://calendar.google.com/event?action=TEMPLATE&tmeid=NTRpZDFkNXFiODhqZXU4NjBzbHVqaGJkMWggMmloZ2pkbTBwcXRkNjdzcW5mNDBhNGJsaWtAZw&tmsrc=2ihgjdm0pqtd67sqnf40a4blik%40group.calendar.google.com",
             }}
             target="_blank"
           >
