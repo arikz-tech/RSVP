@@ -9,7 +9,7 @@ export const InvitationSectionContainer = styled.div`
 
   direction: rtl;
   align-items: center;
-  height: 900px;
+  height: 800px;
   z-index: 1;
 
   :before {
@@ -41,6 +41,6 @@ export const H1 = styled.h1`
 export const Image = styled.img`
   border: 5px solid #fff;
   border-radius: 15px;
-  width: 400px;
-  height: 900px;
+  width: 350px;
+  height: 800px;
 `;
