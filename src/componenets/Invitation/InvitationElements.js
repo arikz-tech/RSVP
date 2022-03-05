@@ -41,6 +41,6 @@ export const H1 = styled.h1`
 export const Image = styled.img`
   border: 5px solid #fff;
   border-radius: 15px;
-  width: 450px;
+  width: 400px;
   height: 900px;
 `;
