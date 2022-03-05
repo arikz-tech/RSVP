@@ -11,10 +11,20 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowDownward,
-  ArrowDown,
   Image,
 } from "./HeroElements";
+
+import Lottie from "react-lottie";
+import animationData from "../../images/arrow.json";
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -66,7 +76,8 @@ const HeroSection = () => {
             smooth={true}
             offset={-80}
           >
-            אישור הגעה{hover ? <ArrowDownward /> : <ArrowDown />}
+            אישור הגעה
+            <Lottie options={defaultOptions} height={50} width={50} />
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

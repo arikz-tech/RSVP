@@ -16,6 +16,7 @@ export const SectionContainer = styled.div`
 
 export const H1 = styled.h1`
   margin: 10px;
+  text-decoration: underline;
   color: ${colors.primary};
   font-family: hebfont;
   font-weight: bold;

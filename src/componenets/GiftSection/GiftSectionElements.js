@@ -24,6 +24,8 @@ export const GiftSectionContainer = styled.div`
 
 export const H1 = styled.h1`
   color: ${colors.primary};
+  text-decoration: underline;
+  font-size: 40px;
   font-family: hebfont;
   margin-bottom: 10px;
   margin-top: 10px;

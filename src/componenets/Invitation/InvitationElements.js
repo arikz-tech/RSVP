@@ -9,7 +9,7 @@ export const InvitationSectionContainer = styled.div`
 
   direction: rtl;
   align-items: center;
-  height: 700px;
+  height: 900px;
   z-index: 1;
 
   :before {
@@ -24,6 +24,8 @@ export const InvitationSectionContainer = styled.div`
 
 export const H1 = styled.h1`
   color: ${colors.primary};
+  text-decoration: underline;
+  font-size: 40px;
   font-family: hebfont;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -37,6 +39,8 @@ export const H1 = styled.h1`
 `;
 
 export const Image = styled.img`
-  width: 300px;
-  height: 600px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  width: 450px;
+  height: 900px;
 `;

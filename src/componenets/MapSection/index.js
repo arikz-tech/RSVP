@@ -1,5 +1,6 @@
 import React from "react";
 import { MapSectionContainer, H1, H2, H3 } from "./MapElements";
+import wazeImage from "../../images/waze.png";
 
 const MapSection = () => {
   return (
@@ -8,10 +9,14 @@ const MapSection = () => {
       <H2>הסעות:</H2>
       <H3>קרית גת - רחבת השוק בשעה 18:45</H3>
       <H3>כרמיאל - רחבת העירייה בשעה 18:30</H3>
+      <a href="https://waze.com/ul?ll=32.11315664%2C34.90421891&navigate=yes">
+        <img src={wazeImage} width={100} height={100} alt="waze navigation" />
+      </a>
+      <H3>מפה:</H3>
       <iframe
         title="58"
         width="90%"
-        height="450"
+        height="350"
         style={{ border: 0, padding: 10 }}
         loading="lazy"
         allowfullscreen
