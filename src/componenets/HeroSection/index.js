@@ -47,8 +47,14 @@ const HeroSection = () => {
     return mobileVideo;
   };
 
+  const hasWindow = typeof window !== "undefined";
+
   return (
-    <HeroContainer id="home">
+    <HeroContainer
+      id="home"
+      height={hasWindow ? window.innerHeight : 768}
+      width={hasWindow ? window.innerHeight : 360}
+    >
       <HeroBg>
         <VideoBg
           autoPlay
@@ -82,10 +88,10 @@ const HeroSection = () => {
             אישור הגעה{hover ? <ArrowDownward /> : <ArrowDown />}
           </Button>
         </HeroBtnWrapper>
-        <ArowContainer>
-          <Lottie options={defaultOptions} height={100} width={100} />
-        </ArowContainer>
       </HeroContent>
+      <ArowContainer>
+        <Lottie options={defaultOptions} height={100} width={100} />
+      </ArowContainer>
     </HeroContainer>
   );
 };

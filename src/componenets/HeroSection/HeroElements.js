@@ -9,8 +9,8 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 100px;
-  height: 800px;
+  padding: 50px 50px;
+  height: ${({ height }) => height + "px"};
   position: relative;
   z-index: 1;
 
@@ -50,7 +50,7 @@ export const VideoBg = styled.video`
 `;
 
 export const HeroContent = styled.div`
-  margin-top: 250px;
+  margin-top: 150px;
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -61,8 +61,9 @@ export const HeroContent = styled.div`
 `;
 
 export const ArowContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 `;
 
 export const HeroH1 = styled.div`
