@@ -53,14 +53,14 @@ const HeroSection = () => {
     <HeroContainer
       id="home"
       height={hasWindow ? window.innerHeight : 768}
-      width={hasWindow ? window.innerHeight : 360}
+      width={hasWindow ? window.innerWidth : 360}
     >
       <HeroBg>
         <VideoBg
           autoPlay
           loop
           muted
-          src={getVideoSrc(window.innerWidth)}
+          src={getVideoSrc(hasWindow ? window.innerWidth : 360)}
           type="video/mp4"
           onLoadedData={onLoadedData}
           style={{ opacity: isVideoLoaded ? 1 : 0 }}

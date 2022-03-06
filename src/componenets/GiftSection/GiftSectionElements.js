@@ -9,7 +9,7 @@ export const GiftSectionContainer = styled.div`
 
   direction: rtl;
   align-items: center;
-  height: 700px;
+  height: 500px;
   z-index: 1;
 
   :before {
