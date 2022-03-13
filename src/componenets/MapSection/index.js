@@ -1,5 +1,5 @@
 import React from "react";
-import { MapSectionContainer, H1, H2, H3 } from "./MapElements";
+import { MapSectionContainer, H1, H2, H3, H4 } from "./MapElements";
 import wazeImage from "../../images/waze.png";
 
 const MapSection = () => {
@@ -10,9 +10,11 @@ const MapSection = () => {
         <img src={wazeImage} width={100} height={100} alt="waze navigation" />
       </a>
       <H2>הסעות:</H2>
-      <H3>קרית גת - רחבת השוק בשעה 18:45</H3>
+      <H3>קרית גת - רחוב הרימון 30 בשעה 18:45</H3>
+      <H3>טלפון ליצירת קשר 0546904479 - בתאל</H3>
       <H3>כרמיאל - רחבת העירייה בשעה 18:30</H3>
-      <H3>מפה:</H3>
+      <H3>טלפון ליצירת קשר 0544447164 - דניאל</H3>
+      <H4>מפה:</H4>
       <iframe
         title="58"
         width="90%"

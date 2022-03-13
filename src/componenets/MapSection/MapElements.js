@@ -65,3 +65,17 @@ export const H3 = styled.h3`
     font-style: normal;
   }
 `;
+
+export const H4 = styled.h4`
+  color: ${colors.primary};
+  margin-top: 25px;
+  font-family: hebfont;
+  direction: rtl;
+  font-weight: bold;
+  @font-face {
+    font-family: hebfont;
+    src: url(${hebFont}) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+`;
