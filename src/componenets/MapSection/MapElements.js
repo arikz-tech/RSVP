@@ -39,7 +39,7 @@ export const H1 = styled.h1`
 
 export const H2 = styled.h2`
   color: ${colors.primary};
-  margin-top: 10px;
+  margin-top: 15px;
   text-decoration: underline;
   direction: rtl;
   font-family: hebfont;
@@ -54,7 +54,7 @@ export const H2 = styled.h2`
 
 export const H3 = styled.h3`
   color: ${colors.primary};
-  margin-top: 10px;
+  margin-top: 15px;
   font-family: hebfont;
   direction: rtl;
   font-weight: bold;
@@ -68,7 +68,7 @@ export const H3 = styled.h3`
 
 export const H4 = styled.h4`
   color: ${colors.primary};
-  margin-top: 25px;
+  margin-top: 30px;
   font-family: hebfont;
   direction: rtl;
   font-weight: bold;
